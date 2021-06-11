@@ -1,0 +1,108 @@
+{
+  "items": [
+    {
+      "id": "AND01A",
+      "name": "Krakowska 83, 34-120 Andrychów",
+      "type": "parcel_locker"
+    },
+    {
+      "id": "BAS01M",
+      "name": "Krakowska b/n, 39-450 Baranów Sandomierski",
+      "type": "parcel_locker"
+    },
+    {
+      "id": "BBI03M",
+      "name": "Krakowska 194, 43-300 Bielsko-Biała",
+      "type": "parcel_locker"
+    },
+    {
+      "id": "BBI31M",
+      "name": "Krakowska 388, 43-300 Bielsko-Biała",
+      "type": "parcel_locker"
+    },
+    {
+      "id": "BEC01M",
+      "name": "Krakowska 11, 98-430 Bolesławiec",
+      "type": "parcel_locker"
+    },
+    {
+      "id": "BLI01M",
+      "name": "Krakowska 30, 32-540 Bolęcin",
+      "type": "parcel_locker"
+    },
+    {
+      "id": "BLX01G",
+      "name": "Krakowska 70, 32-652 Bulowice",
+      "type": "parcel_locker"
+    },
+    {
+      "id": "BOC02A",
+      "name": "Krakowskie Przedmieście 19, 32-700 Bochnia",
+      "type": "parcel_locker"
+    },
+    {
+      "id": "BSI01M",
+      "name": "Krakowska 122, 43-512 Bestwina",
+      "type": "parcel_locker"
+    },
+    {
+      "id": "BYT01A",
+      "name": "Krakowska 27/31, 41-902 Bytom",
+      "type": "parcel_locker"
+    },
+    {
+      "id": "BZO01M",
+      "name": "Krakowska 12A, 32-088 Brzozówka",
+      "type": "parcel_locker"
+    },
+    {
+      "id": "CHL01M",
+      "name": "Krakowska 20A, 32-660 Chełmek",
+      "type": "parcel_locker"
+    },
+    {
+      "id": "CHL02M",
+      "name": "Krakowska 20C, 32-660 Chełmek",
+      "type": "parcel_locker"
+    },
+    {
+      "id": "CHR09M",
+      "name": "Krakowska 32, 32-500 Chrzanów",
+      "type": "parcel_locker"
+    },
+    {
+      "id": "COW03M",
+      "name": "Krakowska 24, 32-860 Czchów",
+      "type": "parcel_locker"
+    },
+    {
+      "id": "DEB01E",
+      "name": "Krakowska 53, 39-200 Dębica",
+      "type": "parcel_locker"
+    },
+    {
+      "id": "DEB04N",
+      "name": "Krakowska 75, 39-200 Dębica",
+      "type": "parcel_locker"
+    },
+    {
+      "id": "GRO01M",
+      "name": "Krakowska 24, 49-200 Grodków",
+      "type": "parcel_locker"
+    },
+    {
+      "id": "HEC01M",
+      "name": "Krakowska 103, 43-330 Hecznarowice",
+      "type": "parcel_locker"
+    },
+    {
+      "id": "IZD01M",
+      "name": "Krakowska 12, 34-144 Izdebnik",
+      "type": "parcel_locker"
+    }
+  ],
+  "count": 451,
+  "page": 1,
+  "totalPages": 23,
+  "perPage": 20
+}

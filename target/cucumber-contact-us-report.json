@@ -1,0 +1,210 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Sprawdzenie Stanu paczki",
+        "description": "",
+        "id": "stan-paczki;sprawdzenie-stanu-paczki;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 97757800,
+              "error_message": "java.lang.NullPointerException\r\n\tat objects.common.HomePage2.getTitle(HomePage2.java:22)\r\n\tat steps.StanPaczki2.klientJestNaStronieGłównej(StanPaczki2.java:24)\r\n\tat ✽.Given Klient jest na stronie głównej(test.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Klient jest na stronie głównej",
+            "match": {
+              "location": "StanPaczki2.klientJestNaStronieGłównej()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Klient podaje numer paczki \"680175798174312027659619\" i klika znajdź",
+            "match": {
+              "arguments": [
+                {
+                  "val": "680175798174312027659619",
+                  "offset": 28
+                }
+              ],
+              "location": "StanPaczki2.klientPodajeNumerPaczkiIKlikaZnajdź(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Paczka została znaleźiona, a status \"GOTOWY DO ODBIORU\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GOTOWY DO ODBIORU",
+                  "offset": 37
+                }
+              ],
+              "location": "StanPaczki2.paczkaZostałaZnaleźionaAStatus(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@StanPaczki"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Sprawdzenie Stanu paczki",
+        "description": "",
+        "id": "stan-paczki;sprawdzenie-stanu-paczki;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 184100,
+              "error_message": "java.lang.NullPointerException\r\n\tat objects.common.HomePage2.getTitle(HomePage2.java:22)\r\n\tat steps.StanPaczki2.klientJestNaStronieGłównej(StanPaczki2.java:24)\r\n\tat ✽.Given Klient jest na stronie głównej(test.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Klient jest na stronie głównej",
+            "match": {
+              "location": "StanPaczki2.klientJestNaStronieGłównej()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Klient podaje numer paczki \"605080798151518110154556\" i klika znajdź",
+            "match": {
+              "arguments": [
+                {
+                  "val": "605080798151518110154556",
+                  "offset": 28
+                }
+              ],
+              "location": "StanPaczki2.klientPodajeNumerPaczkiIKlikaZnajdź(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Paczka została znaleźiona, a status \"GOTOWY DO ODBIORU\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GOTOWY DO ODBIORU",
+                  "offset": 37
+                }
+              ],
+              "location": "StanPaczki2.paczkaZostałaZnaleźionaAStatus(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@StanPaczki"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Sprawdzenie Stanu paczki",
+        "description": "",
+        "id": "stan-paczki;sprawdzenie-stanu-paczki;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 191500,
+              "error_message": "java.lang.NullPointerException\r\n\tat objects.common.HomePage2.getTitle(HomePage2.java:22)\r\n\tat steps.StanPaczki2.klientJestNaStronieGłównej(StanPaczki2.java:24)\r\n\tat ✽.Given Klient jest na stronie głównej(test.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Klient jest na stronie głównej",
+            "match": {
+              "location": "StanPaczki2.klientJestNaStronieGłównej()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Klient podaje numer paczki \"505080798151518110154556\" i klika znajdź",
+            "match": {
+              "arguments": [
+                {
+                  "val": "505080798151518110154556",
+                  "offset": 28
+                }
+              ],
+              "location": "StanPaczki2.klientPodajeNumerPaczkiIKlikaZnajdź(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Paczka została znaleźiona, a status \"GOTOWY DO ODBIORU\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GOTOWY DO ODBIORU",
+                  "offset": 37
+                }
+              ],
+              "location": "StanPaczki2.paczkaZostałaZnaleźionaAStatus(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@StanPaczki"
+          }
+        ]
+      }
+    ],
+    "name": "Stan paczki",
+    "description": "",
+    "id": "stan-paczki",
+    "keyword": "Feature",
+    "uri": "test.feature"
+  }
+]

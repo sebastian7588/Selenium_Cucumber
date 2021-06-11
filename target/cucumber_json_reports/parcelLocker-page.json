@@ -1,0 +1,62 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-11T12:24:04.749Z",
+        "line": 4,
+        "name": "Wyszukanie paczkomaty",
+        "description": "",
+        "id": "dostępne-paczkomaty;wyszukanie-paczkomaty",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat steps.StanPaczki.endTest(StanPaczki.java:41)\r\n",
+              "duration": 2992000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "steps.StanPaczki.endTest()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat steps.StanowiskoPracy.endTest(StanowiskoPracy.java:87)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "steps.StanowiskoPracy.endTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1393758300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Wyszukaj Paczkomatów w Krakowie",
+            "match": {
+              "location": "steps.DostępnePaczkomaty.wyszukajPaczkomatówWKrakowie()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DostępnePaczkomaty"
+          }
+        ]
+      }
+    ],
+    "name": "Dostępne Paczkomaty",
+    "description": "",
+    "id": "dostępne-paczkomaty",
+    "keyword": "Feature",
+    "uri": "file:src/main/features/Dost%C4%99pnePaczkomaty/Dost%C4%99pnePaczkomaty.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: idarunner.RunStanPaczki2
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.432 s <<< FAILURE! - in idarunner.RunStanPaczki2
+Sprawdzenie Stanu paczki #1(Stan paczki)  Time elapsed: 0.1 s  <<< ERROR!
+java.lang.NullPointerException
+
+Sprawdzenie Stanu paczki #2(Stan paczki)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Sprawdzenie Stanu paczki #3(Stan paczki)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+

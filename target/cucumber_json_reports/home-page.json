@@ -1,0 +1,267 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-11T11:29:47.808Z",
+        "line": 12,
+        "name": "Sprawdzenie Stanu paczki",
+        "description": "",
+        "id": "stan-paczki;sprawdzenie-stanu-paczki;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 5022769600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.StanPaczki.endTest()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat steps.StanowiskoPracy.endTest(StanowiskoPracy.java:87)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "steps.StanowiskoPracy.endTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5920146300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Użytkownik jest na stronie głównej",
+            "match": {
+              "location": "steps.StanPaczki.użytkownikJestNaStronieGłównej()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cbutton type\u003d\"submit\" class\u003d\"btn--primary -mobilefull\"\u003e...\u003c/button\u003e is not clickable at point (742, 355). Other element would receive the click: \u003cdiv id\u003d\"onetrust-group-container\" class\u003d\"ot-sdk-twelve ot-sdk-columns\"\u003e...\u003c/div\u003e\n  (Session info: chrome\u003d91.0.4472.101)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-7MIU887\u0027, ip: \u0027192.168.0.151\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\\Users\\seba\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65345}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fb63799ff4e0fa691d57b65a5e822d89\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\r\n\tat objects.home.DeliveryTrackingComponent.clickSearch(DeliveryTrackingComponent.java:39)\r\n\tat steps.StanPaczki.użytkownikPodajeNumerPaczkiIKlikaZnajdź(StanPaczki.java:32)\r\n\tat ✽.Użytkownik podaje numer paczki \"680175798174312027659619\" i klika znajdź(file:///F:/inposttest/src/main/features/StanPaczki/StanPaczki.feature:6)\r\n",
+              "duration": 1292193500,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Użytkownik podaje numer paczki \"680175798174312027659619\" i klika znajdź",
+            "match": {
+              "arguments": [
+                {
+                  "val": "680175798174312027659619",
+                  "offset": 32
+                }
+              ],
+              "location": "steps.StanPaczki.użytkownikPodajeNumerPaczkiIKlikaZnajdź(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Paczka została znaleźiona, a status paczki jest \"GOTOWY DO ODBIORU\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GOTOWY DO ODBIORU",
+                  "offset": 49
+                }
+              ],
+              "location": "steps.StanPaczki.paczkaZostałaZnaleźionaAStatus(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@StanPaczki"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-11T11:30:00.081Z",
+        "line": 13,
+        "name": "Sprawdzenie Stanu paczki",
+        "description": "",
+        "id": "stan-paczki;sprawdzenie-stanu-paczki;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 4873739100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.StanPaczki.endTest()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat steps.StanowiskoPracy.endTest(StanowiskoPracy.java:87)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "steps.StanowiskoPracy.endTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5764266500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Użytkownik jest na stronie głównej",
+            "match": {
+              "location": "steps.StanPaczki.użytkownikJestNaStronieGłównej()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3507813100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Użytkownik podaje numer paczki \"605080798151518110154556\" i klika znajdź",
+            "match": {
+              "arguments": [
+                {
+                  "val": "605080798151518110154556",
+                  "offset": 32
+                }
+              ],
+              "location": "steps.StanPaczki.użytkownikPodajeNumerPaczkiIKlikaZnajdź(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.ComparisonFailure: Status nie jest zgodny expected:\u003c[GOTOWY DO ODBIORU]\u003e but was:\u003c[Śledź paczkę]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.TestCase.assertEquals(TestCase.java:253)\r\n\tat steps.StanPaczki.paczkaZostałaZnaleźionaAStatus(StanPaczki.java:37)\r\n\tat ✽.Paczka została znaleźiona, a status paczki jest \"GOTOWY DO ODBIORU\"(file:///F:/inposttest/src/main/features/StanPaczki/StanPaczki.feature:7)\r\n",
+              "duration": 39866800,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "Paczka została znaleźiona, a status paczki jest \"GOTOWY DO ODBIORU\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GOTOWY DO ODBIORU",
+                  "offset": 49
+                }
+              ],
+              "location": "steps.StanPaczki.paczkaZostałaZnaleźionaAStatus(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@StanPaczki"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-11T11:30:14.278Z",
+        "line": 14,
+        "name": "Sprawdzenie Stanu paczki",
+        "description": "",
+        "id": "stan-paczki;sprawdzenie-stanu-paczki;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 4835965100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.StanPaczki.endTest()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat steps.StanowiskoPracy.endTest(StanowiskoPracy.java:87)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "steps.StanowiskoPracy.endTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5703077900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Użytkownik jest na stronie głównej",
+            "match": {
+              "location": "steps.StanPaczki.użytkownikJestNaStronieGłównej()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3321488500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Użytkownik podaje numer paczki \"505080798151518110154556\" i klika znajdź",
+            "match": {
+              "arguments": [
+                {
+                  "val": "505080798151518110154556",
+                  "offset": 32
+                }
+              ],
+              "location": "steps.StanPaczki.użytkownikPodajeNumerPaczkiIKlikaZnajdź(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.ComparisonFailure: Status nie jest zgodny expected:\u003c[GOTOWY DO ODBIORU]\u003e but was:\u003c[Śledź paczkę]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.TestCase.assertEquals(TestCase.java:253)\r\n\tat steps.StanPaczki.paczkaZostałaZnaleźionaAStatus(StanPaczki.java:37)\r\n\tat ✽.Paczka została znaleźiona, a status paczki jest \"GOTOWY DO ODBIORU\"(file:///F:/inposttest/src/main/features/StanPaczki/StanPaczki.feature:7)\r\n",
+              "duration": 25930900,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "Paczka została znaleźiona, a status paczki jest \"GOTOWY DO ODBIORU\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GOTOWY DO ODBIORU",
+                  "offset": 49
+                }
+              ],
+              "location": "steps.StanPaczki.paczkaZostałaZnaleźionaAStatus(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@StanPaczki"
+          }
+        ]
+      }
+    ],
+    "name": "Stan paczki",
+    "description": "",
+    "id": "stan-paczki",
+    "keyword": "Feature",
+    "uri": "file:src/main/features/StanPaczki/StanPaczki.feature",
+    "tags": []
+  }
+]
