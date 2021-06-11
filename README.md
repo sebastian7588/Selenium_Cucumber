@@ -3,6 +3,7 @@ Instalacja:
 - Pobierz jave w wersji 12
 - Pobierz Maven w wersji 3.3.9
 - Dodaj do zmiennych środowiskowych ścieżki do javy i maven MAVEN_HOME, JAVA_HOME i w Path obie ścieżki
+- Pobierz Webdrivera i umieść go w C:/chromedriver.exe
 - Pobierz repo z github'a
 
 Uruchamianie:
